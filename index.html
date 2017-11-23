@@ -1,276 +1,416 @@
-
 <!DOCTYPE html>
-<html class="cspio">
+<html lang="en">
+
 <head>
-	
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>BehindTheRamp - Commune. Collaborate. Create.</title>
 
-	<meta name="generator" content="comingsoonpage.com 1.0.0" />
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="favicon.png">
-	<meta property="og:url" content="" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Community for Fashion Designers" />
-	<meta property="og:description" content="" />
-	
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="img/favicon.png">
 
-	<!-- Bootstrap and default Style -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+  <title>Behind The Ramp</title>
 
-	<!-- Google Fonts -->
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=TimesNewRoman:400&subset=' rel='stylesheet' type='text/css'>
-			
-	<!-- Animate CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-	
-	<!-- Calculated Styles -->
-	<style type="text/css">
-	
-	html {
-		height: 100%;
-		overflow: hidden;
-	}
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-	body {
-		height:100%;
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-	
-	html{
-		background: #ffffff url("BTR_Original.jpg"); 
-   		background-repeat: no-repeat;
-		background-position: center;
-    		background-size: cover;
-    		width: 100%;
-    		height: 100%;
-	}
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
 
-	#cspio-page{
-		background-color: rgba(0,0,0,0);
-	}
-	
-	.flexbox #cspio-page{
-		align-items: center;
-		justify-content: center;
-	}
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-	.cspio body{
-		background: transparent;
-	}
+  <!-- Custom styles for this template -->
+  <link href="css/creative.css" rel="stylesheet">
 
-	.cspio body, .cspio body p{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-       		font-size: 20px;
-        	line-height: 1.50em;
-        	color:#ffffff;
-    }
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	::-webkit-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-	::-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	} 
+</head>
 
-	:-ms-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	} 
+<body id="page-top">
 
-	:-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Behind The Ramp</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#tribe">Tribe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#accelerate">Accelerate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#bespoke">Bespoke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#aboutus">About Us</a>
+          </li>
+          <!--<li class="nav-item">
+            <a href="#" class="btn btn-primary btn-xl" role="button">Signin</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-        font-family: 'Times New Roman';
-        color:#ffffff;
-    }
+  <header class="masthead text-white d-flex">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>hello, we are</h2>
+          <h1 style="font-family: Playfair display;">
+            Behind The Ramp
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
 
-	#cspio-headline{
-		font-family: 'Times New Roman';
-		font-weight: 400;
-		font-style: ;
-		font-size: 30px;
-		color:#ffffff;
-		line-height: 1.00em;
-	}
 
-	.cspio button{
-        font-family: 'Times New Roman';
-		font-weight: 400;
-		font-style: ;
-    }
-	
-    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
-		color: #ffffff;
-	}
+<div id="overview" class="container2">
+  <img src="img/btr_original.jpg" style="width: 100%">
+  <h3 class="centered">An Inclusive Business Platform for Designers and Fashion Entrepreneurs</h3>
+</div> 
 
-	#cspio-socialprofiles a {
-	  color: #ffffff;
-	}
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button,
-	#mc-embedded-subscribe, .submit-button {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		background-color: #ffffff;
-		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: linear-gradient(top,#ffffff,#d9d9d9);
-		background-repeat: repeat-x;
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		*background-color: #d9d9d9;
-		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-	}
 
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary.disabled,
-	.cspio .btn-primary[disabled],
-	.cspio .btn-primary:focus:hover,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.cspio .btn-primary:focus.disabled,
-	.cspio .btn-primary:focus[disabled],
-	#mc-embedded-subscribe:hover,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active,
-	#mc-embedded-subscribe.disabled,
-	#mc-embedded-subscribe[disabled] {
-		background-color: #d9d9d9;
-		*background-color: #cccccc;
-	}
+  <section class="gray-subhead text-center">
+  <div class="container">
+    <h3><strong>Communicate. Collaborate. Create.</strong></h3>
+    </div>
+  </section>
 
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.gform_button:active,
-	.gform_button.active,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active {
-		background-color: #bfbfbf;
-	}
+<section id="tribe">
+    <div class="container">
+      <div class="col-lg-8 mx-auto text-center" style="margin-bottom: 50px;">
+          <h2 class="section-heading">Our Solutions</h2>
+          <hr class="my-4">
+      </div>
+      <div class="row" style="margin-bottom: 100px;">
+        <div class="col-md-6">
+          <h2 class="section-heading" style="text-align: center;">BTR Tribe</h2>
+          <h4 style="text-align: center; color: #0072bc">Create your tribe!</h4>
+          <hr class="my-4" style="max-width: 150px; ">
+          <p style="padding-left:50px; padding-right: 50px; font-family: helvetica;">Collaborate with your peers, exchange
+new ideas, seek services through inclusive
+service marketplace platform, make new
+business associates, create your own tribe,
+be a part of something bigger.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/tribe1.jpg" style="width: 100%; box-shadow: 20px 20px #ff0000;">
+        </div>
+      </div>
+        
+      <div id="accelerate" class="row" style="margin-bottom: 100px;">
+        <div class="col-md-6">
+          <img src="img/accelerate1.jpg" style="width: 100%; box-shadow: -20px 20px #0072bc;">
+        </div>
+        <div class="col-md-6">
+          <h2 class="section-heading" style="text-align: center;">BTR Accelerate</h2>
+          <h4 style="text-align: center; color: #0072bc">After all nobody has all the answers, right?</h4>
+          <hr class="my-4" style="max-width: 150px; ">
+          <p style="padding-left:50px; padding-right: 50px;">
+            <ul class="featureList">
+                <li class="tick" style="margin-bottom: 10px;">Sales Accelerator program to enhance visibility</li>
+                <li class="tick" style="margin-bottom: 10px;">Sales growth through B2B opportunities</li>
+                <li class="tick" style="margin-bottom: 10px;">Technology and business modules created by Industry coaches</li>
+                <li class="tick" style="margin-bottom: 10px;">Expert support to drive operational efficiences and increase revenues</li>
+                <li class="tick" style="margin-bottom: 10px;">Improve data analytics</li>
+            </ul>
+          </p>
+        </div>
+        
+      </div>
 
-	.form-control,
-	.progress {
-		background-color: rgba(255, 255, 255, 0.85);
-	}
 
-	#cspio-progressbar span,
-	.countdown_section {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-	}
+      <div id="bespoke" class="row">
+        <div class="col-md-6">
+          <h2 class="section-heading" style="text-align: center;">BTR Bespoke</h2>
+          <h4 style="text-align: center; color: #0072bc">You design products, we design solutions.</h4>
+          <hr class="my-4" style="max-width: 150px; ">
+          <p style="padding-left:50px; padding-right: 50px;">
+            <ul class="featureList">  
+                <li class="tick" style="margin-bottom: 10px;">  Business Planning and Budgeting</li>
+                <li class="tick" style="margin-bottom: 10px;">  Process Re-engineering</li>
+                <li class="tick" style="margin-bottom: 10px;">  Process Development Solutions</li>
+                <li class="tick" style="margin-bottom: 10px;">  Sourcing Solutions</li>
+                <li class="tick" style="margin-bottom: 10px;">  Brand Marketing Solutions</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/bespoke1.jpg" style="width: 100%; box-shadow: 20px 20px #d3ae37;">
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		border-color: #e6e6e6;
-	}
+  <section id="aboutus">
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Features</h2>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 text-center">
+          <div class="servic4e-box mt-5 mx-auto">
+            <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+            <h4>Spam free business networking & problem solving</h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fa fa-4x fa-handshake-o text-primary mb-3 sr-icons"></i>
+            <h4>Access to verified service providers</h4>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fa fa-4x fa-bar-chart-o text-primary mb-3 sr-icons"></i>
+            <h4>Data Science in Fashion</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fa fa-4x fa-file-text-o text-primary mb-3 sr-icons"></i>
+            <h3 class="mb-3">Exclusive research articles & curated content</h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fa fa-4x fa-users text-primary mb-3 sr-icons"></i>
+            <h3 class="mb-3">Access to industry experts</h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="fa fa-4x fa-gear text-primary mb-3 sr-icons"></i>
+            <h3 class="mb-3">Your own customizable platform</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
-	.cspio input[type='text']:focus {
-		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-	}
-    
-    #cspio-content {
-		display: none;
-		max-width: 600px;
-		background-color: #000000;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		-moz-background-clip: padding;
-		-webkit-background-clip: padding-box;
-		background-clip: padding-box;
-		background-color:transparent;
-	}
-    
-	.cspio .progress-bar,
-	.countdown_section,
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button {
-		background-image: none;
-		text-shadow: none;
-	}
+  <section class="gray-subhead text-center">
+  <div class="container">
+    <h4 style="font-style: italic;">"I alone cannot change the world, </br> but I can cast a stone across the waters to create my ripples"</h4>
+    <p style="text-align:right; font-family: helvetica; padding-right: 10%;">
+      <b>- Mother Teresa</b>
+    </p>
+    </div>
+  </section>
 
-	.cspio input,
-	.cspio input:focus {
-		-webkit-box-shadow: none !important;
-		box-shadow: none !important;
-	}
-							
-	#cspio-page{
-	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	}
 
-	.cspio body{
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
-	}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Behind The Ramp</h2>
+          <hr class="my-4">
+          <p class="mb-4" style="font-family: helvetica;">Is a unique team comprising of retail professionals, data scientists, designers
+and senior fashion academicians from SRCC, IIT, NIFT, Pearl and other leading fashion schools.
+<br>Is supported by key members in the global designer fraternity and various industry experts in services domain in our audacious goal to galvanise the Indian Fashion Community</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	#cspio-subscribe-btn{
-	    background:transparent;
-	    border: 1px solid #fff !important;
-	    color: #fff;
-	}
 
-	#cspio-subscribe-btn:hover{
-	    background: rgba(255,255,255,0.2);
-	    color: #fff;
-	}
+  <section class="gray-subhead text-center">
+  <h2 class="section-heading" style="margin-top: -5%; margin-bottom: 5%">We are currently in Beta. Signup for early access</h2>
+  <div class="container">
+    <div class="col-md-6" style="margin-left: 25%;">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Email">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button">Notify Me</button>
+      </span>
+    </div>
+  </div>
+    </div>
+    <p style="margin-top: 2%; font-family: helvetica">We promise to never spam you</p>
+  </section>
 
-	#cspio-credit img{
-		margin-left:auto;
-		margin-right:auto;
-		width:125px;
-		    margin-top: -4px;
-	}
+ <!--  <section class="gray-subhead text-center">
+    <h3>Commune . Collaborate . Create</h3>
+  </section> -->
 
-	#cspio-credit {
-		font-size:11px;
-	}
+  <!-- <section id="howitworks">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">How it works</h2>
+          <hr class="my-4">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false"> -->
+            <!-- Indicators -->
+            <!-- <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol> -->
 
-	</style>
+            <!-- Wrapper for slides -->
+            <!-- <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/portfolio/fullsize/1.jpg" alt="One">
+              </div>
 
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+              <div class="item">
+                <img src="img/portfolio/fullsize/2.jpg" alt="Two">
+              </div>
 
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	
-	<!-- Google Analytics Code Goes Here-->
+              <div class="item">
+                <img src="img/portfolio/fullsize/3.jpg" alt="Three">
+              </div>
+
+              <div class="item">
+                <img src="img/portfolio/fullsize/4.jpg" alt="Four">
+              </div>
+
+              <div class="item">
+                <img src="img/portfolio/fullsize/5.jpg" alt="Five">
+              </div>
+
+              <div class="item">
+                <img src="img/portfolio/fullsize/6.jpg" alt="Six">
+              </div>
+            </div> -->
+
+            <!-- Left and right controls -->
+            <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="fa fa-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="fa fa-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+ <!--  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Discover more about the exclusive community of behind the ramp</h2>
+          <a class="btn btn-primary btn-xl sr-button" href="#">Request Invite</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  
+
+  <!-- <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Mentors and business Coaches</h2>
+          <h3 style="color:blue">Setup 1-on-1 ..... blabla</h3>
+          <hr class="my-4">
+          <div class="my-slider">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Seek guidance from these industry veterans and grow your business</h2>
+          <a class="btn btn-primary btn-xl sr-button" href="#">Explore</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+ <!--  <section class="gray-subhead text-center">
+    <h3>Fashion is not .... bla bla</h3>
+    <p style="text-align:right">
+      <b>- Coco Chanel</b>
+    </p>
+  </section> -->
+
+ <!--  <section id="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Pricing</h2>
+          <hr class="my-4">
+          <h3 style="color:blue">Avail Special Intro ..... blabla</h3>
+          <a class="btn btn-primary btn-xl sr-button" href="#">View Plans</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+ <!--  <section id="network">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Our Network</h2>
+          <hr class="my-4">
+          <a class="btn btn-primary btn-xl sr-button" href="#">Signup</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+
+<!-- Google Analytics Code Goes Here-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -278,55 +418,9 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-101847791-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
-</head>
-<body>
-	<div id="cspio-page">
-		<div id="cspio-content" style="height: -25px;">
-			
-			<img id="cspio-logo" src="BehindTheRamp.png">
-						
-			<h1 id="cspio-headline">India's First Business Network for Designers and Fashion Professionals</h1>
-			
-			<div id="cspio-description"> We're currently in beta. Sign up below for early access.</div>
-						
-			<form id="cspio-form" action="//behindtheramp.us16.list-manage.com/subscribe/post?u=887c207e8cac57f2e3e91bf93&amp;id=6e17759355" method="post">
-				<div id="cspio-field-wrapper">
-					<div class="row">
-						<div class="col-md-12 seperate"><div class="input-group"><input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Email" required/>
-					<span class="input-group-btn"><button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Notify Me</button></span></div></div>
-					</div>
-				</div>
-			</form>
-			
-			<span id="cspio-privacy-policy-txt">We promise to never spam you.</span>
-    									    			    			    							    			     			    		
-		</div><!-- end of #cspio-content -->
-	</div>
 
-  
-	<script>
-		// Animate Delay
-		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
+</body>
 
-		// Resize	
-		function resize(){
-				$('head').append("<style id='form-style' type='text/css'></style>");
-				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
-		}
-		
-		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
-			function(){
-				var width = $('#cspio-field-wrapper').width();
-				if(width < 480 && width != 0){
-					resize();
-				}
-			}
-		);
-	</script>
-
-
-	</body>
 </html>

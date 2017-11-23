@@ -403,4 +403,8 @@ section.gray-subhead {
     section.gray-subhead .container > * {
         margin-left: 0 !important;
     }
+
+    .centered {
+        width: 100%;
+    }
 }

@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Avenir', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Avenir', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .bg-primary {
@@ -105,7 +105,7 @@ body {
 #mainNav {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Avenir', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
@@ -113,7 +113,7 @@ body {
 
 #mainNav .navbar-brand {
     color: #000;
-    font-family: Playfair display;
+    font-family: Avenir;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -286,7 +286,7 @@ section.gray-subhead {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Avenir', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -324,7 +324,7 @@ section.gray-subhead {
 .btn {
     border: none;
     border-radius: 10px;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Avenir', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .btn-xl {
@@ -377,7 +377,7 @@ section.gray-subhead {
     margin-top: 0;
     padding-left: 2em;
     list-style-type: none;
-    font-family: helvetica;
+    font-family: Avenir;
 }
 
 .featureList li:before {
